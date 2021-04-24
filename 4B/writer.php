@@ -13,13 +13,13 @@
 			<a class="navbar-brand" href="#">Dumb Library</a>
 			<ul class="nav">
 				<li class="nav-item">
-					<a role="button" class="btn btn-sm btn-primary mr-2" style="width:110px;">Add Book</a>
+					<a role="button" class="btn btn-sm btn-primary mr-2" href="./index.php" style="width:110px;">Add Book</a>
 				</li>
 				<li class="nav-item">
-					<a role="button" class="btn btn-sm btn-primary mr-2" style="width:110px";>Add Writer</a>
+					<a role="button" class="btn btn-sm btn-primary mr-2" href="./writer.php" style="width:110px";>Add Writer</a>
 				</li>
 				<li class="nav-item">
-					<a role="button" class="btn btn-sm btn-primary" style="width:110px;">Add Category</a>
+					<a role="button" class="btn btn-sm btn-primary" href="./category.php" style="width:110px;">Add Category</a>
 				</li>
 			</ul>
 		</div>
