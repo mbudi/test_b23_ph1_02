@@ -20,8 +20,8 @@ CREATE TABLE tb_book (
     publication_year int(5),
     img blob,
     PRIMARY KEY (id),
-    FOREIGN KEY (category_id) REFERENCES tb_category(id),
-    FOREIGN KEY (writer_id) REFERENCES tb_writer(id)
+    FOREIGN KEY (category_id) REFERENCES tb_category(id) ON DELETE CASCADE,
+    FOREIGN KEY (writer_id) REFERENCES tb_writer(id) ON DELETE CASCADE
 );
 
 INSERT INTO tb_writer
